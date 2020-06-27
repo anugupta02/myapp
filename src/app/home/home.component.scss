@@ -1,0 +1,78 @@
+span {
+    font-weight: bold;
+    background: lightgray;
+    padding: .3em .8em;
+    cursor: pointer;
+}
+
+.play-container {
+    padding: 3em;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+.grid{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 5px 10px;
+  margin-right : 3rem;
+  color: blue;
+  display: inline-block;
+ }
+
+
+.profile-div .header .bttn3 {
+  float: right;
+  line-height: 34px;
+  border-radius: 4px;
+  height: 34px;
+  width: 115px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #673a9a;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.bttn3:hover {
+  text-decoration: underline;
+}
+
+#checkbox {
+  display: none;
+}
+#checkbox:checked + p {
+  display: block;
+}
+.profile-div p {
+  display: none;
+  color: #646464;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.profile-div p a {
+  color: #646464;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
