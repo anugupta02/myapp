@@ -8,7 +8,6 @@ import {HttpClientModule} from '@angular/common/http';
 import {TestPageComponent} from './test-page';
 import {ModalModule} from './_modal';
 import {FormsModule} from '@angular/forms';
-import {MDBBootstrapModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import {MDBBootstrapModule} from 'angular-bootstrap-md';
     HttpClientModule,
     ModalModule,
     FormsModule,
-    MDBBootstrapModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
