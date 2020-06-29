@@ -6,18 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-
   isActive=false
-
-
-
   clickCounter: number = 0;
   name: string = '';
-  constructor() { }
 
-  ngOnInit() {
-  }
+  constructor() { }
+  ngOnInit() { }
+
   countClick() {
     this.clickCounter += 1;
   }
@@ -28,4 +23,5 @@ export class HomeComponent implements OnInit {
     };
     return myClasses;
   }
+
 }
