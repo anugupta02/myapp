@@ -24,6 +24,7 @@ export class IconsComponent implements OnInit {
   }
 
   icons = [
+    "home","menu","three_dot",
     "add_a_photo",
     "add_alarm",
     "low_priority",

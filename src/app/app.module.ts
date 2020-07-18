@@ -13,6 +13,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MDBBtn, MDBIcon } from "mdbreact";
 import {MatTooltipModule} from "@angular/material/tooltip";
 import {IconsComponent} from "./icons/icons.component";
+import {HeaderComponent} from "./components/header/header.component";
+import {DataListComponent} from "./components/data-list/data-list.component";
+import {NotFoundComponent} from "./components/not-found/not-found.component";
+import {HaysAppComponent} from "./components/hays-app/hays-app.component";
+import {DetailComponent} from "./components/detail/detail.component";
+import {DashboardComponent} from "./components/dashboard/dashboard.component";
 
 
 
@@ -23,6 +29,12 @@ import {IconsComponent} from "./icons/icons.component";
     ListComponent,
     TestPageComponent,
     IconsComponent,
+    DashboardComponent,
+    DataListComponent,
+    DetailComponent,
+    HeaderComponent,
+    HaysAppComponent,
+    NotFoundComponent
 
   ],
   imports: [
