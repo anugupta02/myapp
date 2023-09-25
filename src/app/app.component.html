@@ -1,29 +1,3 @@
-<header>
-  <div class="container">
-    <a routerLink="/" class="logo">CoolApp</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a href="#" routerLink="/list">List</a></li>
-        <li><a routerLink="/test-page">Modal</a></li>
-
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="container">
-  <router-outlet></router-outlet>
+<div [ngClass]="selectedTheme === 'dark' ? 'dark-theme' : 'light-theme'">
+  <app-home></app-home>
 </div>
-
-
-<div class="credits">
-  <p>
-    <a href="https://github.com/anu1996/myapp" target="_top1">Angular 8 - Custom Modal Window / Dialog Box made by Anu Gupta</a>
-  </p>
-  <p>
-    <a href="http://e-shopper-online.com/" target="_top2">e-shopper-online.com made by Anu Gupta</a>
-  </p>
-</div>
-
-<app-header></app-header>

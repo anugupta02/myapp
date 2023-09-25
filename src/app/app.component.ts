@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
+  selectedTheme: string = 'light';
+
+  toggleTheme() {
+    this.selectedTheme = this.selectedTheme === 'light' ? 'dark' : 'light';
+  }
 }
