@@ -1,0 +1,86 @@
+.country-nav {
+  background-color: #98bfd6;
+  height: 60px;
+}
+
+.country-body {
+  background-color: #f5f7f3dc;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.form-control {
+  height: auto;
+  padding: 5px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-theme .country-nav {
+  background-color: #333;
+}
+
+.dark-theme .navbar-brand {
+  color: #fff;
+}
+
+.dark-theme .nav-link {
+  color: #fff;
+}
+
+.dark-theme .form-control {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme .btn {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #f5f7f3dc;
+  color: #000;
+}
+
+.light-theme .country-nav {
+  background-color: #98bfd6;
+}
+
+.light-theme .navbar-brand {
+  color: #000;
+}
+
+.light-theme .nav-link {
+  color: #000;
+}
+
+.light-theme .form-control {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-theme .btn {
+  background-color: #fff;
+  color: #000;
+}
